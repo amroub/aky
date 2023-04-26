@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.2" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.1" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta007" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aky.Foundation.Ddd\aky.Foundation.Ddd.csproj" />
+    <ProjectReference Include="..\aky.Foundation.Messaging\aky.Foundation.AzureServiceBus\aky.Foundation.AzureServiceBus.csproj" />
+    <ProjectReference Include="..\aky.Foundation.Repository.EF\aky.Foundation.Repository.EF.csproj" />
+    <ProjectReference Include="..\aky.Foundation.Repository\aky.Foundation.Repository.csproj" />
+    <ProjectReference Include="..\aky.Foundation.Utility\aky.Foundation.Utility.csproj" />
+  </ItemGroup>
+  
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>ca.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+</Project>

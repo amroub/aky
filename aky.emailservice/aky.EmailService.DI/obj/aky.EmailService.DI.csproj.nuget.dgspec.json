@@ -1,0 +1,833 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.DI\\aky.EmailService.DI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.DI\\aky.EmailService.DI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.DI\\aky.EmailService.DI.csproj",
+        "projectName": "aky.EmailService.DI",
+        "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.DI\\aky.EmailService.DI.csproj",
+        "packagesPath": "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.DI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AmrouBouhlel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Domain\\aky.EmailService.Domain.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Domain\\aky.EmailService.Domain.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Infrastructure\\aky.EmailService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Infrastructure\\aky.EmailService.Infrastructure.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.TemplateEngine\\aky.EmailService.TemplateEngine.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.TemplateEngine\\aky.EmailService.TemplateEngine.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\aky.Foundation.Ddd.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\aky.Foundation.Ddd.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.DependencyResolutions\\aky.Foundation.DependencyResolutions.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.DependencyResolutions\\aky.Foundation.DependencyResolutions.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\aky.Foundation.AzureServiceBus.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\aky.Foundation.AzureServiceBus.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Utility\\aky.Foundation.Utility.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Utility\\aky.Foundation.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Autofac.Extras.CommonServiceLocator": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "CommonServiceLocator": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Sendgrid": {
+              "target": "Package",
+              "version": "[9.9.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.0-beta007, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Domain\\aky.EmailService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Domain\\aky.EmailService.Domain.csproj",
+        "projectName": "aky.EmailService.Domain",
+        "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Domain\\aky.EmailService.Domain.csproj",
+        "packagesPath": "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AmrouBouhlel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\aky.Foundation.Ddd.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\aky.Foundation.Ddd.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository\\aky.Foundation.Repository.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository\\aky.Foundation.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.0-beta007, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Infrastructure\\aky.EmailService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Infrastructure\\aky.EmailService.Infrastructure.csproj",
+        "projectName": "aky.EmailService.Infrastructure",
+        "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Infrastructure\\aky.EmailService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AmrouBouhlel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Domain\\aky.EmailService.Domain.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.Domain\\aky.EmailService.Domain.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\aky.Foundation.AzureServiceBus.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\aky.Foundation.AzureServiceBus.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository.EF\\aky.Foundation.Repository.EF.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository.EF\\aky.Foundation.Repository.EF.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository\\aky.Foundation.Repository.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository\\aky.Foundation.Repository.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Utility\\aky.Foundation.Utility.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Utility\\aky.Foundation.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Sendgrid": {
+              "target": "Package",
+              "version": "[9.9.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.0-beta007, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.TemplateEngine\\aky.EmailService.TemplateEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.TemplateEngine\\aky.EmailService.TemplateEngine.csproj",
+        "projectName": "aky.EmailService.TemplateEngine",
+        "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.TemplateEngine\\aky.EmailService.TemplateEngine.csproj",
+        "packagesPath": "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.TemplateEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AmrouBouhlel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "DotLiquid": {
+              "target": "Package",
+              "version": "[2.0.266, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.0-beta007, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\aky.Foundation.Ddd.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\aky.Foundation.Ddd.csproj",
+        "projectName": "aky.Foundation.Ddd",
+        "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\aky.Foundation.Ddd.csproj",
+        "packagesPath": "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AmrouBouhlel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "CommonServiceLocator": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Unity": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.DependencyResolutions\\aky.Foundation.DependencyResolutions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.DependencyResolutions\\aky.Foundation.DependencyResolutions.csproj",
+        "projectName": "aky.Foundation.DependencyResolutions",
+        "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.DependencyResolutions\\aky.Foundation.DependencyResolutions.csproj",
+        "packagesPath": "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.DependencyResolutions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AmrouBouhlel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\aky.Foundation.Ddd.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\aky.Foundation.Ddd.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\aky.Foundation.AzureServiceBus.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\aky.Foundation.AzureServiceBus.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository.EF\\aky.Foundation.Repository.EF.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository.EF\\aky.Foundation.Repository.EF.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository\\aky.Foundation.Repository.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository\\aky.Foundation.Repository.csproj"
+              },
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Utility\\aky.Foundation.Utility.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Utility\\aky.Foundation.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.0-beta007, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\aky.Foundation.AzureServiceBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\aky.Foundation.AzureServiceBus.csproj",
+        "projectName": "aky.Foundation.AzureServiceBus",
+        "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\aky.Foundation.AzureServiceBus.csproj",
+        "packagesPath": "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AmrouBouhlel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[3.0.0-preview-02, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.0-beta007, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository.EF\\aky.Foundation.Repository.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository.EF\\aky.Foundation.Repository.EF.csproj",
+        "projectName": "aky.Foundation.Repository.EF",
+        "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository.EF\\aky.Foundation.Repository.EF.csproj",
+        "packagesPath": "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AmrouBouhlel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {
+              "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository\\aky.Foundation.Repository.csproj": {
+                "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository\\aky.Foundation.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.0-beta007, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository\\aky.Foundation.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository\\aky.Foundation.Repository.csproj",
+        "projectName": "aky.Foundation.Repository",
+        "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository\\aky.Foundation.Repository.csproj",
+        "packagesPath": "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AmrouBouhlel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.0-beta007, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Utility\\aky.Foundation.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Utility\\aky.Foundation.Utility.csproj",
+        "projectName": "aky.Foundation.Utility",
+        "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Utility\\aky.Foundation.Utility.csproj",
+        "packagesPath": "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AmrouBouhlel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Blazor.Extensions.Logging": {
+              "target": "Package",
+              "version": "[0.1.1, )"
+            },
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.4.0-beta3, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.0-beta007, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

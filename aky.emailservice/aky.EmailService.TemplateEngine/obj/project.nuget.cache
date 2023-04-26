@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "uT/qY4X/aqJoyN/nSMY+wAk6qd5nOrtiqekL8cInIL+26k5F8/QNRoDEQhBQhV33HDj1rmXyMmXmbYegyyBBjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.emailservice\\aky.EmailService.TemplateEngine\\aky.EmailService.TemplateEngine.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\dotliquid\\2.0.266\\dotliquid.2.0.266.nupkg.sha512",
+    "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\2.6.1\\microsoft.codeanalysis.fxcopanalyzers.2.6.1.nupkg.sha512",
+    "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\microsoft.codequality.analyzers\\2.6.1\\microsoft.codequality.analyzers.2.6.1.nupkg.sha512",
+    "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\microsoft.netcore.analyzers\\2.6.1\\microsoft.netcore.analyzers.2.6.1.nupkg.sha512",
+    "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\microsoft.netframework.analyzers\\2.6.1\\microsoft.netframework.analyzers.2.6.1.nupkg.sha512",
+    "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\stylecop.analyzers\\1.1.0-beta007\\stylecop.analyzers.1.1.0-beta007.nupkg.sha512",
+    "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\text.analyzers\\2.6.1\\text.analyzers.2.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

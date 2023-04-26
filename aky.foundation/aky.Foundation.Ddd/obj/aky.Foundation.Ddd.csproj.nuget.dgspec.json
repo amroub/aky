@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\aky.Foundation.Ddd.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\aky.Foundation.Ddd.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\aky.Foundation.Ddd.csproj",
+        "projectName": "aky.Foundation.Ddd",
+        "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\aky.Foundation.Ddd.csproj",
+        "packagesPath": "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Ddd\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AmrouBouhlel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "CommonServiceLocator": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Unity": {
+              "target": "Package",
+              "version": "[5.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

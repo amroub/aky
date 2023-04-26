@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Events\**" />
+    <EmbeddedResource Remove="Events\**" />
+    <None Remove="Events\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.1" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta007" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\aky.foundation\aky.Foundation.Ddd\aky.Foundation.Ddd.csproj" />
+    <ProjectReference Include="..\..\aky.foundation\aky.Foundation.Repository\aky.Foundation.Repository.csproj" />
+  </ItemGroup>
+  
+  <PropertyGroup>
+	<CodeAnalysisRuleSet>ca.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.2" />
+    <PackageReference Include="Autofac.Extras.CommonServiceLocator" Version="5.0.0" />
+    <PackageReference Include="CommonServiceLocator" Version="2.0.3" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.1" />
+    <PackageReference Include="Sendgrid" Version="9.9.0" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.0-beta007" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\aky.foundation\aky.Foundation.Ddd\aky.Foundation.Ddd.csproj" />
+    <ProjectReference Include="..\..\aky.foundation\aky.Foundation.DependencyResolutions\aky.Foundation.DependencyResolutions.csproj" />
+    <ProjectReference Include="..\..\aky.foundation\aky.Foundation.Messaging\aky.Foundation.AzureServiceBus\aky.Foundation.AzureServiceBus.csproj" />
+    <ProjectReference Include="..\..\aky.foundation\aky.Foundation.Utility\aky.Foundation.Utility.csproj" />
+    <ProjectReference Include="..\aky.EmailService.Domain\aky.EmailService.Domain.csproj" />
+    <ProjectReference Include="..\aky.EmailService.Infrastructure\aky.EmailService.Infrastructure.csproj" />
+    <ProjectReference Include="..\aky.EmailService.TemplateEngine\aky.EmailService.TemplateEngine.csproj" />
+  </ItemGroup>
+  
+  <PropertyGroup>
+	<CodeAnalysisRuleSet>ca.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+</Project>

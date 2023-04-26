@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\aky.Foundation.AzureServiceBus.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\aky.Foundation.AzureServiceBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\aky.Foundation.AzureServiceBus.csproj",
+        "projectName": "aky.Foundation.AzureServiceBus",
+        "projectPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\aky.Foundation.AzureServiceBus.csproj",
+        "packagesPath": "C:\\Users\\AmrouBouhlel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AmrouBouhlel\\OneDrive - Astrocast SA\\Desktop\\aky.foundation\\aky.Foundation.Messaging\\aky.Foundation.AzureServiceBus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AmrouBouhlel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[3.0.0-preview-02, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "target": "Package",
+              "version": "[2.6.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "target": "Package",
+              "version": "[1.1.0-beta007, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
